@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s \"https://raw.githubusercontent.com/anthropics/skills/main/skills/frontend-design/SKILL.md\")",
+      "Bash(python -m markitdown \"项目分析会模版.pptx\")",
+      "Bash(pip install:*)",
+      "Bash(python \"C:\\\\Users\\\\DELL\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\ce4e22a8-a00c-4862-bf02-dc00a01262cd\\\\83017acd-1c15-4054-bb41-d44222f8ed19\\\\skills\\\\pptx\\\\scripts\\\\thumbnail.py\" \"项目分析会模版.pptx\")",
+      "Bash(python \"C:\\\\Users\\\\DELL\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\ce4e22a8-a00c-4862-bf02-dc00a01262cd\\\\83017acd-1c15-4054-bb41-d44222f8ed19\\\\skills\\\\pptx\\\\scripts\\\\office\\\\soffice.py\" --headless --convert-to pdf \"项目分析会模版.pptx\")"
+    ]
+  }
+}
