@@ -5,7 +5,19 @@
       "Bash(python -m markitdown \"项目分析会模版.pptx\")",
       "Bash(pip install:*)",
       "Bash(python \"C:\\\\Users\\\\DELL\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\ce4e22a8-a00c-4862-bf02-dc00a01262cd\\\\83017acd-1c15-4054-bb41-d44222f8ed19\\\\skills\\\\pptx\\\\scripts\\\\thumbnail.py\" \"项目分析会模版.pptx\")",
-      "Bash(python \"C:\\\\Users\\\\DELL\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\ce4e22a8-a00c-4862-bf02-dc00a01262cd\\\\83017acd-1c15-4054-bb41-d44222f8ed19\\\\skills\\\\pptx\\\\scripts\\\\office\\\\soffice.py\" --headless --convert-to pdf \"项目分析会模版.pptx\")"
+      "Bash(python \"C:\\\\Users\\\\DELL\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\ce4e22a8-a00c-4862-bf02-dc00a01262cd\\\\83017acd-1c15-4054-bb41-d44222f8ed19\\\\skills\\\\pptx\\\\scripts\\\\office\\\\soffice.py\" --headless --convert-to pdf \"项目分析会模版.pptx\")",
+      "Bash(gh --version)",
+      "Bash(winget install:*)",
+      "Bash(where gh:*)",
+      "Read(//c/Program Files/GitHub CLI/**)",
+      "Read(//c/Program Files \\(x86\\)/**)",
+      "Bash(\"C:/Program Files/GitHub CLI/gh.exe\" auth login)",
+      "Bash(\"C:/Program Files/GitHub CLI/gh.exe\" auth status)",
+      "Bash(\"C:/Program Files/GitHub CLI/gh.exe\" repo create project-analysis-dashboard --public --source=. --remote=origin --push --description=\"项目分析会模版 - 基于frontend-design设计原则创建的交互式网页界面\")",
+      "Bash(\"C:/Program Files/GitHub CLI/gh.exe\" api -X POST repos/bob-bhy/project-analysis-dashboard/pages -f source[branch]=master)",
+      "Bash(\"C:/Program Files/GitHub CLI/gh.exe\" api repos/bob-bhy/project-analysis-dashboard/pages)",
+      "WebFetch(domain:maas-log-prod.cn-wlcb.ufileos.com)",
+      "Bash(curl -I \"https://bob-bhy.github.io/project-analysis-dashboard/\")"
     ]
   }
 }
